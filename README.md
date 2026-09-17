@@ -180,13 +180,19 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 ---
 
-## `> CONTRIBUTION_MATRIX`
+## `> CONTRIBUTION_ARCADE`
 
 <div align="center">
 
-**My GitHub contribution calendar lives directly above this profile README.**
+### 👻 `PAC-MAN // CONTRIBUTION MODE`
 
-`LEARN  →  BUILD  →  CONTRIBUTE  →  REPEAT`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/pacman-contribution-graph.svg" width="100%">
+</picture>
+
+`CONTRIBUTIONS → MAZE → PAC-MAN → LEVEL UP`
 
 </div>
 
@@ -205,7 +211,7 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 </div>
 
-> GitHub's native contribution graph is the source of truth for my activity. As I build and contribute more, this section will grow with it.
+> The arcade graph above is generated from my real GitHub contribution calendar and updates automatically through GitHub Actions.
 
 ---
 
