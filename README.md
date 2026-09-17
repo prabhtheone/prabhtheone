@@ -160,11 +160,11 @@ An interactive browser-based FinTech demo with wallets, transfers, budgets, expe
 </td>
 <td width="50%">
 
-### 🤖 `BlenderGPT`
+### 🧪 `more-coming-soon`
 
-An open-source Blender add-on that uses natural-language prompts to generate and execute Blender Python scripts.
+This space is reserved for the next project I build, document, and ship.
 
-[**VIEW PROJECT →**](https://github.com/prabhtheone/BlenderGPT)
+[**EXPLORE ALL PROJECTS →**](https://github.com/prabhtheone?tab=repositories)
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ An open-source Blender add-on that uses natural-language prompts to generate and
 
 I like opening unfamiliar codebases, understanding how they work, fixing things, and learning from real projects.
 
-**Exploring:** [OmniRoute](https://github.com/prabhtheone/OmniRoute) • [BlenderGPT](https://github.com/prabhtheone/BlenderGPT) • [first-contributions](https://github.com/prabhtheone/first-contributions)
+**Exploring:** [OmniRoute](https://github.com/prabhtheone/OmniRoute) • [first-contributions](https://github.com/prabhtheone/first-contributions)
 
 ---
 
