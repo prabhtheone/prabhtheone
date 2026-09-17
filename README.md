@@ -92,19 +92,6 @@ Python basics → ML concepts → CNN experimentation
 
 ---
 
-## `> 3D_CONTRIBUTION_WORLD`
-
-<div align="center">
-
-### `ISOMETRIC // GITHUB ACTIVITY`
-
-<img src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/main/github-isometric.svg" alt="3D Isometric GitHub contribution calendar" width="100%" />
-
-`COMMITS → 3D BLOCKS → STREAKS → BUILD HISTORY`
-
-</div>
-
----
 
 ## `> GITHUB_METRICS`
 
