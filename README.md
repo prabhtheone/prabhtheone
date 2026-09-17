@@ -92,6 +92,18 @@ Python basics → ML concepts → CNN experimentation
 
 ---
 
+## `> GITHUB_METRICS`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
+
+`ACTIVITY • LANGUAGES • CONTRIBUTIONS • REPOSITORIES • CODING HABITS`
+
+</div>
+
+---
+
 ## `> AI_LAB`
 
 ### 🧠 CNN — built from scratch
