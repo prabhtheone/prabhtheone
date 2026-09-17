@@ -19,9 +19,9 @@
 │  PRABHJOT.SINGH                                                     │
 │                                                                      │
 │  > first-year B.Tech student                                        │
-│  > learning C++                                                     │
 │  > building with C                                                  │
-│  > exploring Python + AI                                            │
+│  > learning C++ in VS Code                                          │
+│  > learning Python basics                                           │
 │  > experimenting with neural networks                               │
 │                                                                      │
 │  STATUS :: LEARNING MODE                                             │
@@ -34,7 +34,7 @@
 
 I'm a **first-year B.Tech student** who enjoys learning by building.
 
-Right now my strongest foundation is in **C**, I'm actively working through **C++ in VS Code**, and I'm learning **Python fundamentals**. I've also started exploring machine learning by building a **CNN model from scratch**.
+My current foundation is **C**. I'm actively learning **C++ in VS Code**, working through **Python fundamentals**, and exploring machine learning by building a **CNN model from scratch**.
 
 ```yaml
 student: "B.Tech • Year 1"
@@ -43,7 +43,7 @@ learning_now: C++
 python: basics
 editor: VS Code
 ai_experiment: "CNN built from scratch"
-approach: "understand the fundamentals → build → break → fix → repeat"
+approach: "understand → build → break → fix → repeat"
 ```
 
 ---
@@ -65,7 +65,7 @@ Pointers • structs • file I/O • functions • problem solving
 ### `C++`
 **IN PROGRESS**
 
-Learning modern C++ and improving problem-solving skills in VS Code.
+Modern C++ fundamentals and problem solving in VS Code.
 
 </td>
 <td width="33%" align="center">
@@ -96,7 +96,7 @@ Python basics → ML concepts → CNN experimentation
 
 ### 🧠 CNN — built from scratch
 
-One of my current learning experiments is understanding convolutional neural networks by implementing the core ideas myself rather than treating the model as a black box.
+One of my learning experiments is understanding convolutional neural networks by implementing the core ideas myself instead of treating the model as a black box.
 
 ```text
 IMAGE
@@ -115,7 +115,7 @@ IMAGE
 └──────┬───────┘
        ▼
 ┌──────────────┐
-│    DENSE      │
+│     DENSE     │
 └──────┬───────┘
        ▼
     PREDICTION
@@ -160,11 +160,11 @@ An interactive browser-based FinTech demo with wallets, transfers, budgets, expe
 </td>
 <td width="50%">
 
-### 🧪 `more-coming-soon`
+### 🚀 `more-coming-soon`
 
-This space is reserved for the next project I build, document, and ship.
+More projects will appear here as I learn, build, and ship.
 
-[**EXPLORE ALL PROJECTS →**](https://github.com/prabhtheone?tab=repositories)
+[**VIEW REPOSITORIES →**](https://github.com/prabhtheone?tab=repositories)
 
 </td>
 </tr>
@@ -184,7 +184,9 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+**My GitHub contribution calendar lives directly above this profile README.**
+
+`LEARN  →  BUILD  →  CONTRIBUTE  →  REPEAT`
 
 </div>
 
@@ -194,16 +196,16 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&hide_border=true&theme=transparent&title_color=39ff88&icon_color=39ff88&text_color=9ca3af&bg_color=00000000&rank_icon=github" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhtheone&layout=compact&hide_border=true&theme=transparent&title_color=39ff88&text_color=9ca3af&bg_color=00000000" height="170" />
+| | |
+|---|---|
+| 🧩 **Repositories** | Building and experimenting with new projects |
+| 💻 **Languages** | C • C++ • Python |
+| 🧠 **Current focus** | Fundamentals + problem solving + CNNs |
+| 🌱 **Open source** | Learning through real-world codebases |
 
 </div>
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prabhtheone&bg_color=00000000&color=39ff88&line=39ff88&point=ffffff&area=true&hide_border=true" width="100%" />
-
-</div>
+> GitHub's native contribution graph is the source of truth for my activity. As I build and contribute more, this section will grow with it.
 
 ---
 
