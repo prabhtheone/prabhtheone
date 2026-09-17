@@ -92,13 +92,27 @@ Python basics → ML concepts → CNN experimentation
 
 ---
 
+## `> 3D_CONTRIBUTION_WORLD`
+
+<div align="center">
+
+### `ISOMETRIC // GITHUB ACTIVITY`
+
+<img src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/main/github-isometric.svg" alt="3D Isometric GitHub contribution calendar" width="100%" />
+
+`COMMITS → 3D BLOCKS → STREAKS → BUILD HISTORY`
+
+</div>
+
+---
+
 ## `> GITHUB_METRICS`
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
 
-`ACTIVITY • LANGUAGES • CONTRIBUTIONS • REPOSITORIES • CODING HABITS`
+`ACTIVITY • LANGUAGES • REPOSITORIES • CODING HABITS`
 
 </div>
 
@@ -223,7 +237,7 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 </div>
 
-> The arcade graph above is generated from my real GitHub contribution calendar and updates automatically through GitHub Actions.
+> The 3D isometric graph and arcade graph above are generated from my real GitHub contribution calendar and update automatically through GitHub Actions.
 
 ---
 
