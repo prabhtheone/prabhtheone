@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f0c,50:123524,100:39ff88&height=180&section=header&text=PRABHJOT%20SINGH&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=FIRST-YEAR%20B.TECH%20STUDENT%20%7C%20C%20%7C%20C%2B%2B%20%7C%20PYTHON%20%7C%20AI&descAlignY=62&descSize=15" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f0c,50:123524,100:39ff88&height=180&section=header&text=PRABHJOT%20SINGH&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=FIRST-YEAR%20B.TECH%20CSE%20%7C%20C%20%7C%20C%2B%2B%20%7C%20OPEN%20SOURCE&descAlignY=62&descSize=15" width="100%" />
 
-### `BUILD • LEARN • EXPERIMENT • REPEAT`
+### `BUILD • LEARN • CONTRIBUTE • REPEAT`
 
 [![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prabhtheone)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prabhjot-singh-6aa788432)
@@ -18,13 +18,13 @@
 ┌──────────────────────────────────────────────────────────────────────┐
 │  PRABHJOT.SINGH                                                     │
 │                                                                      │
-│  > first-year B.Tech student                                        │
+│  > first-year B.Tech CSE student                                    │
 │  > building with C                                                  │
-│  > learning C++ in VS Code                                          │
-│  > learning Python basics                                           │
-│  > experimenting with neural networks                               │
+│  > moving into modern C++                                           │
+│  > learning systems programming                                     │
+│  > contributing to real open-source codebases                       │
 │                                                                      │
-│  STATUS :: LEARNING MODE                                             │
+│  STATUS :: BUILDING THE FOUNDATION                                  │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -32,18 +32,18 @@
 
 ## `> ABOUT_ME`
 
-I'm a **first-year B.Tech student** who enjoys learning by building.
+I'm a **first-year B.Tech Computer Science & Engineering student** focused on building a strong foundation in **C, C++, data structures, systems programming, and open source**.
 
-My current foundation is **C**. I'm actively learning **C++ in VS Code**, working through **Python fundamentals**, and exploring machine learning by building a **CNN model from scratch**.
+I learn by taking projects from simple implementations to cleaner, tested, maintainable software.
 
 ```yaml
-student: "B.Tech • Year 1"
-main_language: C
-learning_now: C++
-python: basics
-editor: VS Code
-ai_experiment: "CNN built from scratch"
-approach: "understand → build → break → fix → repeat"
+student: "B.Tech CSE • Year 1"
+primary_path: "C → C++ → DSA → Systems"
+current_language: C
+next_language: C++
+tools: "Git • GitHub • VS Code"
+focus: "Systems programming + open source"
+approach: "understand → build → test → contribute → repeat"
 ```
 
 ---
@@ -55,25 +55,25 @@ approach: "understand → build → break → fix → repeat"
 <td width="33%" align="center">
 
 ### `C`
-**FOUNDATION**
+**CURRENT FOCUS**
 
-Pointers • structs • file I/O • functions • problem solving
+Pointers • structs • dynamic memory • file I/O • testing
 
 </td>
 <td width="33%" align="center">
 
 ### `C++`
-**IN PROGRESS**
+**NEXT STEP**
 
-Modern C++ fundamentals and problem solving in VS Code.
+OOP • STL • vectors • maps • strings • modern C++
 
 </td>
 <td width="33%" align="center">
 
-### `PYTHON + AI`
-**EXPLORING**
+### `OPEN SOURCE`
+**BUILDING EXPERIENCE**
 
-Python basics → ML concepts → CNN experimentation
+Git workflows • issues • code review • pull requests
 
 </td>
 </tr>
@@ -83,58 +83,11 @@ Python basics → ML concepts → CNN experimentation
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111827)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
-
----
-
-
-## `> GITHUB_METRICS`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
-
-`ACTIVITY • LANGUAGES • REPOSITORIES • CODING HABITS`
-
-</div>
-
----
-
-## `> AI_LAB`
-
-### 🧠 CNN — built from scratch
-
-One of my learning experiments is understanding convolutional neural networks by implementing the core ideas myself instead of treating the model as a black box.
-
-```text
-IMAGE
-  │
-  ▼
-┌──────────────┐
-│  CONVOLUTION │  ← learn visual features
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│   ACTIVATION  │
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│    POOLING    │  ← reduce spatial size
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│     DENSE     │
-└──────┬───────┘
-       ▼
-    PREDICTION
-```
-
-> **Learning goal:** understand what happens inside a CNN — not just how to call a library.
 
 ---
 
@@ -146,18 +99,20 @@ IMAGE
 
 ### 🏦 `banking-system`
 
-A console-based **banking system written in C**, built to practice structs, file I/O, authentication, transactions, validation, and basic application architecture.
+A console-based **banking system written in C** demonstrating account management, authentication, binary-file persistence, transfers, transaction history, validation, automated testing, and CI.
+
+**Current goal:** evolve it into a stronger C systems-programming project using pointers, structs, dynamic memory, safer storage, and better tests.
 
 [**VIEW PROJECT →**](https://github.com/prabhtheone/banking-system)
 
 </td>
 <td width="50%">
 
-### 🌾 `Crop-AI`
+### 🚀 `OmniRoute`
 
-A computer-vision project for crop classification and Guava quality grading using deep-learning models.
+An open-source AI gateway where I'm gaining experience working inside an existing codebase, investigating issues, making targeted fixes, and preparing upstream pull requests.
 
-[**VIEW PROJECT →**](https://github.com/prabhtheone/Crop-AI)
+[**VIEW PROJECT →**](https://github.com/prabhtheone/OmniRoute)
 
 </td>
 </tr>
@@ -166,16 +121,16 @@ A computer-vision project for crop classification and Guava quality grading usin
 
 ### 💳 `ledger-fintech-demo`
 
-An interactive browser-based FinTech demo with wallets, transfers, budgets, expense tracking, dashboards, and simulated fraud checks.
+An interactive browser-based FinTech demonstration with wallets, transfers, budgets, expenses, dashboards, and simulated fraud checks.
 
 [**VIEW PROJECT →**](https://github.com/prabhtheone/ledger-fintech-demo)
 
 </td>
 <td width="50%">
 
-### 🚀 `more-coming-soon`
+### 🌱 `Open Source`
 
-More projects will appear here as I learn, build, and ship.
+My contribution history includes beginner Git/GitHub practice and work on external repositories. I keep those repositories available so the history remains intact while the profile showcase stays focused.
 
 [**VIEW REPOSITORIES →**](https://github.com/prabhtheone?tab=repositories)
 
@@ -187,9 +142,27 @@ More projects will appear here as I learn, build, and ship.
 
 ## `> OPEN_SOURCE`
 
-I like opening unfamiliar codebases, understanding how they work, fixing things, and learning from real projects.
+I'm building toward meaningful contributions in **C/C++ and systems-oriented projects**.
 
-**Exploring:** [OmniRoute](https://github.com/prabhtheone/OmniRoute) • [first-contributions](https://github.com/prabhtheone/first-contributions)
+Current workflow:
+
+```text
+LEARN C
+   ↓
+BUILD + TEST
+   ↓
+C++ + STL
+   ↓
+DSA
+   ↓
+SMALL UPSTREAM FIXES
+   ↓
+MEANINGFUL CONTRIBUTIONS
+   ↓
+LARGER OPEN-SOURCE PROJECTS
+```
+
+Repositories such as `first-contributions` are kept as part of my contribution history and learning journey rather than being presented as flagship projects.
 
 ---
 
@@ -217,14 +190,14 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 | | |
 |---|---|
-| 🧩 **Repositories** | Building and experimenting with new projects |
-| 💻 **Languages** | C • C++ • Python |
-| 🧠 **Current focus** | Fundamentals + problem solving + CNNs |
-| 🌱 **Open source** | Learning through real-world codebases |
+| 🧩 **Primary languages** | C • C++ |
+| 🛠️ **Current project** | Banking System in C |
+| 🌐 **Open source** | OmniRoute + upstream contributions |
+| 📚 **Next focus** | Pointers → dynamic memory → C++ → STL → DSA |
 
 </div>
 
-> The 3D isometric graph and arcade graph above are generated from my real GitHub contribution calendar and update automatically through GitHub Actions.
+> My contribution graphs are generated from my real GitHub activity and update automatically through GitHub Actions.
 
 ---
 
@@ -238,6 +211,6 @@ I like opening unfamiliar codebases, understanding how they work, fixing things,
 
 <br><br>
 
-`01 / LEARN` &nbsp; `02 / BUILD` &nbsp; `03 / SHIP` &nbsp; `04 / REPEAT`
+`01 / LEARN` &nbsp; `02 / BUILD` &nbsp; `03 / TEST` &nbsp; `04 / CONTRIBUTE`
 
 </div>
