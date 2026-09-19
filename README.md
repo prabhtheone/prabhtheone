@@ -108,6 +108,17 @@ A console-based **banking system written in C** demonstrating account management
 </td>
 <td width="50%">
 
+### 🌱 `Crop-AI`
+
+A student-built **computer-vision and deep-learning project** for crop classification and Guava quality grading. It uses an EfficientNetB0 two-stage pipeline and currently classifies five crops, with Guava graded into A/B/C/Reject.
+
+[**VIEW PROJECT →**](https://github.com/prabhtheone/Crop-AI)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🚀 `OmniRoute`
 
 An open-source AI gateway where I'm gaining experience working inside an existing codebase, investigating issues, making targeted fixes, and preparing upstream pull requests.
@@ -115,8 +126,6 @@ An open-source AI gateway where I'm gaining experience working inside an existin
 [**VIEW PROJECT →**](https://github.com/prabhtheone/OmniRoute)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 💳 `ledger-fintech-demo`
@@ -124,15 +133,6 @@ An open-source AI gateway where I'm gaining experience working inside an existin
 An interactive browser-based FinTech demonstration with wallets, transfers, budgets, expenses, dashboards, and simulated fraud checks.
 
 [**VIEW PROJECT →**](https://github.com/prabhtheone/ledger-fintech-demo)
-
-</td>
-<td width="50%">
-
-### 🌱 `Open Source`
-
-My contribution history includes beginner Git/GitHub practice and work on external repositories. I keep those repositories available so the history remains intact while the profile showcase stays focused.
-
-[**VIEW REPOSITORIES →**](https://github.com/prabhtheone?tab=repositories)
 
 </td>
 </tr>
