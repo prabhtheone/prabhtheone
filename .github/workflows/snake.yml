@@ -1,4 +1,4 @@
-name: Generate arcade contribution graph
+name: Generate snake contribution graph
 
 on:
   schedule:
@@ -19,12 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate Pac-Man contribution graph
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Generate Snake contribution graph
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: "pacman"
-          player_style: "opportunistic"
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Publish generated graph
         uses: crazy-max/ghaction-github-pages@v3.1.0
