@@ -140,11 +140,36 @@ An interactive browser-based FinTech demonstration with wallets, transfers, budg
 
 ---
 
-## `> OPEN_SOURCE`
+## `> OPEN_SOURCE_TRACK`
 
-I'm building toward meaningful contributions in **C/C++ and systems-oriented projects**.
+I'm now building toward meaningful contributions in **C/C++ and systems-oriented projects**.
 
-Current workflow:
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 🖥️ `ScummVM`
+
+**C++ / OPEN SOURCE**
+
+Exploring the codebase, learning the contribution workflow, and working toward beginner-friendly upstream fixes.
+
+[**MY FORK →**](https://github.com/prabhtheone/scummvm)
+
+</td>
+<td width="50%" align="center">
+
+### 🔐 `Cypherock Firmware`
+
+**C/C++ / FIRMWARE**
+
+Exploring embedded firmware development and learning how to contribute safely to a real hardware-oriented codebase.
+
+[**MY FORK →**](https://github.com/prabhtheone/x1_wallet_firmware)
+
+</td>
+</tr>
+</table>
 
 ```text
 LEARN C
@@ -192,7 +217,7 @@ Repositories such as `first-contributions` are kept as part of my contribution h
 |---|---|
 | 🧩 **Primary languages** | C • C++ |
 | 🛠️ **Current project** | Banking System in C |
-| 🌐 **Open source** | OmniRoute + upstream contributions |
+| 🌐 **Open source** | OmniRoute + ScummVM + Cypherock |
 | 📚 **Next focus** | Pointers → dynamic memory → C++ → STL → DSA |
 
 </div>
