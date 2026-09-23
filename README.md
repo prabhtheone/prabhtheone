@@ -170,15 +170,15 @@ Repositories such as `first-contributions` are kept as part of my contribution h
 
 <div align="center">
 
-### 👻 `PAC-MAN // CONTRIBUTION MODE`
+### 🐍 `SNAKE // CONTRIBUTION MODE`
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/pacman-contribution-graph.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/github-contribution-grid-snake.svg">
+  <img alt="Snake contribution graph" src="https://raw.githubusercontent.com/prabhtheone/prabhtheone/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-`CONTRIBUTIONS → MAZE → PAC-MAN → LEVEL UP`
+`CONTRIBUTIONS → SNAKE → LEVEL UP`
 
 </div>
 
