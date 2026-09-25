@@ -205,7 +205,9 @@ Repositories such as `first-contributions` are kept as part of my contribution h
 
 `CONTRIBUTIONS → SNAKE → LEVEL UP`
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&include_all_commits=true&rank_icon=percentile&show=prs_merged,prs_merged_percentage,reviews,issues)
+<p align="center">
+   <img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&include_all_commits=true&rank_icon=percentile&show=prs_merged,prs_merged_percentage,reviews,issues" />
+</p>
 
 </div>
 
