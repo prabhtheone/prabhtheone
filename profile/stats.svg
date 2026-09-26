@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Prabhjot Singh&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 9, Total Commits  : 129, Total PRs: 26, Total PRs Merged: 6, Merged PRs Percentage: 23.08, Total PRs Reviewed: 1, Total Issues: 0, Contributed to (last year): 4</desc>
+        <desc id="descId">Total Stars Earned: 9, Total Commits  : 132, Total PRs: 26, Total PRs Merged: 6, Merged PRs Percentage: 23.08, Total PRs Reviewed: 1, Total Issues: 0, Contributed to (last year): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 201.1921648108995;
+        stroke-dashoffset: 201.11259451210572;
       }
     }
   
@@ -153,7 +153,7 @@
           Top
         </text>
         <text x="-5" y="12" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="percentile-rank-value" class="rank-percentile-text">
-          80.1%
+          80.0%
         </text>
       
         </g>
@@ -187,7 +187,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >129</text>
+      >132</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
