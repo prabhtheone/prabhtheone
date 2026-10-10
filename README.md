@@ -162,12 +162,15 @@ My personal developer portfolio, bringing together project showcases, learning p
 
 ## `> HACKATHON_MILESTONE`
 
-### 🏆 Chandigarh AI Challenge — Round 1 Cleared
+### 🚀 Let's Start ’26 — NIT Jalandhar | Round 1 Cleared
 
-Advanced past the **Round 1 poster evaluation** with **CivicBin AI**, a computer-vision concept designed to detect when litter is thrown toward a dustbin but misses it, then capture the incident for reporting.
+Cleared the **Round 1 poster presentation** at **Let's Start ’26: Zero to Prototype**, hosted at **NIT Jalandhar**.
 
-**Theme:** AI for Digital Public Infrastructure of Chandigarh  
-**Focus:** Smart waste management · Computer vision · Cleaner public spaces
+**Project:** CivicBin AI — a computer-vision concept to detect when litter is thrown toward a dustbin but misses it, capture the incident, and support reporting for cleaner public spaces.
+
+**Focus:** AI · Computer Vision · Smart Waste Management · Digital Public Infrastructure
+
+[**EVENT DETAILS →**](https://luma.com/ocvbp9p0)
 
 ---
 
