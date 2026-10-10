@@ -136,6 +136,26 @@ An interactive browser-based FinTech demonstration with wallets, transfers, budg
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🤖 `FirstPR-AI`
+
+An AI-powered open-source contribution assistant with five focused tools: Issue Analyzer, Codebase Explorer, Test Planner, PR Mentor, and Contribution Safety Checker. It runs locally with Ollama and a lightweight Gradio interface.
+
+[**VIEW PROJECT →**](https://github.com/prabhtheone/FirstPR-AI)
+
+</td>
+<td width="50%">
+
+### 🌐 `Portfolio`
+
+My personal developer portfolio, bringing together project showcases, learning progress, and open-source work.
+
+[**VIEW WEBSITE →**](https://prabhtheone.vercel.app) · [**REPOSITORY →**](https://github.com/prabhtheone/Portofolio)
+
+</td>
+</tr>
 </table>
 
 ---
