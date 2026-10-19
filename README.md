@@ -229,7 +229,7 @@ Repositories such as `first-contributions` are kept as part of my contribution h
 
 <div align="center">
 
-<img src="./profile/green-pixel-portrait.webp" alt="Green pixel-art portrait at NIT Jalandhar" width="100%" />
+<img src="./profile/green-pixel-portrait.webp" alt="Sharp green LED pixel-art portrait at NIT Jalandhar" width="640" />
 
 </div>
 
