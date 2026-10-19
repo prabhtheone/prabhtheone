@@ -23,6 +23,14 @@ I'm a B.Tech Computer Science & Engineering student focused on **C/C++, AI/ML, c
 - **Open-source journey:** Learning established codebases, debugging issues, testing changes, and preparing meaningful contributions
 - **Approach:** Understand → Build → Test → Improve
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=prabhtheone&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
 ## Highlight
 
 ### Top 5 — Let's Start ’26, NIT Jalandhar
