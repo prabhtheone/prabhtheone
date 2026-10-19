@@ -162,9 +162,9 @@ My personal developer portfolio, bringing together project showcases, learning p
 
 ## `> HACKATHON_MILESTONE`
 
-### 🚀 Let's Start ’26 — NIT Jalandhar | Round 1 Cleared
+### 🏆 Let's Start ’26 — NIT Jalandhar | Top 5 Among All Participants
 
-Cleared the **Round 1 poster presentation** at **Let's Start ’26: Zero to Prototype**, hosted at **NIT Jalandhar**.
+Achieved a **Top 5 ranking among all participants** at **Let's Start ’26: Zero to Prototype**, hosted at **NIT Jalandhar**.
 
 **Project:** CivicBin AI — a computer-vision concept to detect when litter is thrown toward a dustbin but misses it, capture the incident, and support reporting for cleaner public spaces.
 
