@@ -225,18 +225,6 @@ Repositories such as `first-contributions` are kept as part of my contribution h
 
 ---
 
-## `> GREEN_PIXEL_ART`
-
-<div align="center">
-
-<img src="./profile/green-grid-portrait.svg" alt="Green pixel-grid portrait artwork" width="100%" />
-
-`PIXELS • OPEN SOURCE • BUILDING IN PUBLIC`
-
-</div>
-
----
-
 ## `> CONTRIBUTION_ARCADE`
 
 <div align="center">
