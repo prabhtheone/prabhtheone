@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:172554,100:0F766E&height=220&section=header&text=Prabhjot%20Singh&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=35&desc=Computer%20Science%20Student%20%7C%20Open%20Source%20Learner&descSize=16&descAlignY=58" width="100%" alt="Prabhjot Singh — Computer Science student and open-source learner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:172554,100:0F766E&height=220&section=header&text=Prabhjot%20Singh&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=35&desc=CS%20Student%20%7C%20Open%20Source%20%7C%20AI%2FML&descSize=16&descAlignY=58" width="100%" alt="Prabhjot Singh — Computer Science, open source and AI/ML" />
 
 <p>
   <a href="https://github.com/prabhtheone"><img src="https://img.shields.io/badge/GitHub-prabhtheone-161B22?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
@@ -9,9 +9,9 @@
   <a href="https://prabhtheone.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>
 
-### Learning by reading real code, debugging carefully, and contributing in public.
+### Learn deeply. Build useful things. Contribute consistently.
 
-**Current mission: strengthen my fundamentals, build useful projects, and contribute to open source**
+*Computer Science student exploring real-world software, AI/ML, and open-source engineering.*
 
 </div>
 
@@ -19,39 +19,73 @@
 
 ## 👋 About Me
 
-I'm a first-year **B.Tech Computer Science & Engineering student at I.K. Gujral Punjab Technical University** in India. I'm building strong programming fundamentals and learning how to contribute responsibly to established open-source projects.
+Hey! I'm **Prabhjot Singh**, a first-year **B.Tech Computer Science & Engineering student at I.K. Gujral Punjab Technical University, India**.
 
-- 💻 **Programming:** strengthen my C and C++ foundations, problem-solving, and debugging.
-- 🤖 **AI/ML:** keep learning Python, machine learning, and computer-vision concepts through practical projects.
-- 🌍 **Open source:** understand real repositories, choose meaningful issues, write tests, and learn from code review.
-- 🧠 **Core skills:** Git, data structures and algorithms, software design, documentation, and consistent practice.
+I'm working on strengthening my programming fundamentals while learning how large, real-world codebases are built, tested, and maintained. I enjoy building projects, exploring unfamiliar repositories, debugging problems, and learning from the open-source community.
 
-> My focus is long-term growth: learn the fundamentals, build projects, and make genuine contributions.
+- 🌍 **Open source:** exploring established projects, understanding issue workflows, and learning to make focused, useful contributions.
+- 💻 **Programming:** strengthening my C/C++ fundamentals, problem-solving, debugging, and software engineering habits.
+- 🤖 **AI & ML:** learning Python, machine learning, computer vision, and practical AI developer tools.
+- 🧰 **Developer workflow:** practising Git, code navigation, testing, documentation, and pull-request reviews.
+- 📈 **Mindset:** learn by doing, understand before changing, and improve through feedback.
 
-## 🎯 Main Open-Source Focus
+> I'm still learning, and I want my profile to show the real journey: projects built, codebases explored, skills improving, and contributions made.
 
-<div align="center">
+## 🧭 Current Open-Source Tracks
 
-<a href="https://github.com/CCExtractor/ccextractor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=CCExtractor&repo=ccextractor&theme=github_dark&hide_border=true" alt="CCExtractor repository card" />
-</a>
+<table>
+<tr>
+<td width="33%" valign="top">
 
-</div>
+### 🚦 [OmniRoute](https://github.com/prabhtheone/OmniRoute)
 
-### CCExtractor — GSoC 2027 preparation
+Exploring a large AI gateway project that brings multiple AI providers and coding tools behind a unified interface.
 
-My current priority is to understand the CCExtractor codebase and become capable of making useful, well-tested contributions.
+**What I'm learning**
+- Navigating a large codebase
+- Understanding routing and provider integrations
+- Tracing bugs and reproducing issues
+- Making changes carefully and testing them
 
-**My learning plan**
-1. Set up the project locally and understand its build and test workflow.
-2. Read the documentation and map the main directories and components.
-3. Reproduce a real issue before attempting a fix.
-4. Learn the project's conventions and run relevant tests.
-5. Start with a small, focused contribution and improve from review feedback.
+[View repository](https://github.com/prabhtheone/OmniRoute)
 
-**Contribution workflow:** Explore → Build → Reproduce → Trace → Test → Fix → Review
+</td>
+<td width="33%" valign="top">
 
-[Repository](https://github.com/CCExtractor/ccextractor) · [My CCExtractor fork](https://github.com/prabhtheone/ccextractor) · [CCExtractor organization](https://github.com/CCExtractor)
+### 🧪 [Future AGI](https://github.com/prabhtheone/future-agi)
+
+Exploring tools for evaluating, tracing, and improving AI applications and agents.
+
+**What I'm learning**
+- Understanding a multi-component project
+- Setting up the development environment
+- Reading tests and project conventions
+- Identifying approachable issues
+
+[View repository](https://github.com/prabhtheone/future-agi)
+
+</td>
+<td width="33%" valign="top">
+
+### 🎬 [CCExtractor](https://github.com/prabhtheone/ccextractor)
+
+Learning a mature open-source subtitle and closed-caption extraction project written primarily in C, with other languages used across the codebase.
+
+**What I'm learning**
+- Building and running the project
+- Understanding modules and data flow
+- Reproducing issues before fixing them
+- Testing changes and following maintainer feedback
+
+[My fork](https://github.com/prabhtheone/ccextractor) · [Upstream project](https://github.com/CCExtractor/ccextractor)
+
+</td>
+</tr>
+</table>
+
+**My contribution workflow:** Explore → Set up → Reproduce → Understand → Change → Test → Document → Ask for review
+
+*These are active learning/contribution tracks; I only claim a contribution as merged or accepted when that has actually happened.*
 
 ## 🏆 Highlight
 
@@ -68,38 +102,58 @@ My current priority is to understand the CCExtractor codebase and become capable
 
 **Let's Start ’26: Zero to Prototype · NIT Jalandhar**
 
-Placed among the **Top 5 participants** while working on CivicBin AI, an AI-assisted civic-cleanliness project concept.
+Placed among the **Top 5 participants** while working on **CivicBin AI**, an AI-assisted civic-cleanliness project concept.
 
-[Event details](https://luma.com/ocvbp9p0) · [CivicBin AI project](https://github.com/prabhtheone/CivicBin-AI)
+[Event details](https://luma.com/ocvbp9p0) · [CivicBin AI](https://github.com/prabhtheone/CivicBin-AI)
 
 </td>
 </tr>
 </table>
 
-## 🛠️ Selected Projects
+## 🚀 Projects I've Built
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏦 [Banking System](https://github.com/prabhtheone/banking-system)
+### ♻️ [CivicBin AI](https://github.com/prabhtheone/CivicBin-AI)
 
-A console-based banking simulation with account creation, PIN-protected login, deposits, withdrawals, transfers, balance checks, and transaction history. Includes file-based persistence and basic build/smoke testing.
+An AI-assisted civic-cleanliness concept focused on detecting waste and bins from images/video to help identify potential littering incidents.
 
-**Learning:** program structure · validation · file I/O · testing
-
-<sub>Educational project, not production banking software.</sub>
+**Focus:** computer vision · object detection · civic technology
 
 </td>
 <td width="50%" valign="top">
 
 ### 🤖 [FirstPR-AI](https://github.com/prabhtheone/FirstPR-AI)
 
-A local-first assistant concept for helping open-source beginners break down issues, explore unfamiliar repositories, plan tests, and prepare contributions.
+A local-first assistant concept to help open-source beginners understand issues, explore unfamiliar repositories, plan tests, and prepare safer contributions.
 
-**Learning:** Python · Gradio · Ollama · developer tooling
+**Focus:** Python · Gradio · Ollama · developer tooling
 
 [Project site](https://firstpr-ai.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌱 [Crop-AI](https://github.com/prabhtheone/Crop-AI)
+
+An AI-focused project exploring ways technology can support crop-related decisions and agricultural use cases.
+
+**Focus:** AI/ML exploration · practical problem-solving
+
+</td>
+<td width="50%" valign="top">
+
+### 🏦 [Banking System](https://github.com/prabhtheone/banking-system)
+
+A C console-based banking simulation with account creation, PIN-protected login, deposits, withdrawals, transfers, balance checks, transaction history, and file-based persistence.
+
+**Focus:** C fundamentals · validation · file I/O · testing
+
+<sub>Educational project, not production banking software.</sub>
 
 </td>
 </tr>
@@ -110,7 +164,7 @@ A local-first assistant concept for helping open-source beginners break down iss
 
 A browser-based FinTech demo exploring wallets, transfers, budgeting, expense tracking, and rule-based fraud-check simulations.
 
-**Learning:** JavaScript · React · UI state
+**Focus:** JavaScript · React · UI state
 
 [Live demo](https://prabhtheone.github.io/ledger-fintech-demo/)
 
@@ -121,7 +175,7 @@ A browser-based FinTech demo exploring wallets, transfers, budgeting, expense tr
 
 A responsive personal portfolio for presenting projects and learning progress, with interactive visual effects and a project list.
 
-**Learning:** HTML · CSS · JavaScript · Supabase
+**Focus:** HTML · CSS · JavaScript · Supabase
 
 [Visit portfolio](https://prabhtheone.vercel.app)
 
@@ -129,14 +183,17 @@ A responsive personal portfolio for presenting projects and learning progress, w
 </tr>
 </table>
 
-## 📚 What I'm Working On
+## 🧠 My Learning Roadmap
 
-- [ ] Build and run CCExtractor locally; document the setup steps that work on my machine.
-- [ ] Understand the project's architecture and contribution guidelines.
-- [ ] Learn to reproduce and investigate issues using logs, debugging, and tests.
-- [ ] Practise Git branches, focused commits, and clean pull-request descriptions.
-- [ ] Make a small contribution only after understanding the change and verifying it.
-- [ ] Keep improving programming fundamentals and problem-solving alongside open source.
+| Area | What I'm working on |
+| --- | --- |
+| **C & C++** | Functions, pointers, memory, data structures, OOP, STL, and writing understandable code |
+| **Problem-solving** | DSA foundations, breaking down problems, debugging, and complexity basics |
+| **AI & ML** | Python, data handling, ML fundamentals, model evaluation, and computer-vision projects |
+| **Open source** | Reading unfamiliar code, reproducing bugs, tests, focused changes, and review feedback |
+| **Engineering habits** | Git branches, clear commits, documentation, code quality, and repeatable testing |
+
+**My loop:** Learn → Build → Debug → Test → Document → Contribute → Improve
 
 ## 🧰 Tools & Technologies
 
@@ -145,31 +202,34 @@ A responsive personal portfolio for presenting projects and learning progress, w
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Gradio](https://img.shields.io/badge/Gradio-F97316?style=for-the-badge&logo=gradio&logoColor=white)
 
 </div>
 
-<sub>These are tools and languages I'm learning or using in projects—not a claim of professional mastery.</sub>
+<sub>These represent tools and languages I'm learning or using in projects—not a claim of professional mastery.</sub>
 
-## 📊 GitHub Overview
+## 📌 What I'm Focusing On Next
 
-<div align="center">
+- [ ] Build and understand the local development workflow for my current open-source tracks.
+- [ ] Find approachable issues and verify their status before starting work.
+- [ ] Reproduce bugs and understand the root cause before changing code.
+- [ ] Write and run relevant tests for every change.
+- [ ] Improve C/C++, Python, Git, and debugging fundamentals through consistent practice.
+- [ ] Explain my changes clearly and learn from code review.
 
-<a href="https://github.com/prabhtheone">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub profile statistics" />
-</a>
-<a href="https://github.com/prabhtheone">
-  <img height="165" src="https://streak-stats.demolab.com?user=prabhtheone&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
-</a>
+## 📊 Explore My GitHub
 
-<br/>
+Instead of relying on third-party stats, streak, or trophy cards that may fail to load, use these direct GitHub pages for up-to-date activity:
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhtheone&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Most-used GitHub languages" />
-
-</div>
+<p>
+  <a href="https://github.com/prabhtheone?tab=repositories"><img src="https://img.shields.io/badge/My%20Repositories-Browse-161B22?style=for-the-badge&logo=github" alt="Browse repositories" /></a>
+  <a href="https://github.com/prabhtheone?tab=activity"><img src="https://img.shields.io/badge/Recent%20Activity-View-238636?style=for-the-badge&logo=github" alt="View recent activity" /></a>
+  <a href="https://github.com/prabhtheone?tab=stars"><img src="https://img.shields.io/badge/Starred%20Projects-Explore-8957E5?style=for-the-badge&logo=github" alt="Explore starred projects" /></a>
+</p>
 
 ## 🤝 Connect
 
@@ -178,7 +238,6 @@ A responsive personal portfolio for presenting projects and learning progress, w
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Prabhjot%20Singh-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/prabhjot-singh-6aa788432)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jotgill1522@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-238636?style=flat-square&logo=vercel)](https://prabhtheone.vercel.app)
-[![Repositories](https://img.shields.io/badge/Repositories-Browse-161B22?style=flat-square&logo=github)](https://github.com/prabhtheone?tab=repositories)
 
 <br/>
 
