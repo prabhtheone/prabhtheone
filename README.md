@@ -206,17 +206,6 @@ A browser-based FinTech demo exploring wallets, transfers, budgeting, expense tr
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [Personal Portfolio](https://github.com/prabhtheone/Portofolio)
-
-A responsive personal portfolio for presenting projects and learning progress, with interactive visual effects and a project list.
-
-**Focus:** HTML · CSS · JavaScript · Supabase
-
-[Visit portfolio](https://prabhtheone.vercel.app)
-
-</td>
-</tr>
-</table>
 
 ## 🧠 My Learning Roadmap
 
