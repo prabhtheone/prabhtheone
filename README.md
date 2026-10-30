@@ -11,7 +11,7 @@
 
 ### Learning by reading real code, debugging carefully, and contributing in public.
 
-**Current mission: prepare for GSoC 2027 with CCExtractor**
+**Current mission: strengthen my fundamentals, build useful projects, and contribute to open source**
 
 </div>
 
@@ -21,12 +21,12 @@
 
 I'm a first-year **B.Tech Computer Science & Engineering student at I.K. Gujral Punjab Technical University** in India. I'm building strong programming fundamentals and learning how to contribute responsibly to established open-source projects.
 
-- 🎯 **Primary goal:** prepare for Google Summer of Code 2027, with **CCExtractor** as my main project focus.
-- 🔎 **How I learn:** explore repository structure, trace code paths, reproduce bugs, read tests, and understand a fix before writing it.
-- 🧰 **Current priorities:** programming fundamentals, Git workflows, debugging, testing, and navigating a mature codebase.
-- 🌱 **Approach:** small, understandable changes first; quality and consistency over rushing contributions.
+- 💻 **Programming:** strengthen my C and C++ foundations, problem-solving, and debugging.
+- 🤖 **AI/ML:** keep learning Python, machine learning, and computer-vision concepts through practical projects.
+- 🌍 **Open source:** understand real repositories, choose meaningful issues, write tests, and learn from code review.
+- 🧠 **Core skills:** Git, data structures and algorithms, software design, documentation, and consistent practice.
 
-> This profile documents my learning journey. I'm preparing for GSoC 2027 and am not claiming selection or affiliation with the program.
+> My focus is long-term growth: learn the fundamentals, build projects, and make genuine contributions.
 
 ## 🎯 Main Open-Source Focus
 
