@@ -31,6 +31,41 @@ I'm working on strengthening my programming fundamentals while learning how larg
 
 > I'm still learning, and I want my profile to show the real journey: projects built, codebases explored, skills improving, and contributions made.
 
+## 💻 C Programming — Featured
+
+C is one of the foundations I'm actively strengthening. I practise by writing small programs, learning how functions and data structures fit together, debugging errors, and gradually building larger console applications.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏦 [Banking System in C](https://github.com/prabhtheone/banking-system)
+
+My main C project: a console-based banking simulation with account creation, PIN-protected login, deposits, withdrawals, transfers, balances, transaction history, and file-based persistence.
+
+**Concepts:** functions · structs · input validation · file I/O · testing
+
+[Explore the code and README →](https://github.com/prabhtheone/banking-system)
+
+</td>
+<td width="50%" valign="top">
+
+### 📘 [C Programming Practice](https://github.com/prabhtheone/programs-of-c)
+
+A growing collection for practising C fundamentals, from input/output and control flow to functions, arrays, pointers, structures, and file handling.
+
+**Goal:** understand each concept by writing, compiling, debugging, and testing programs.
+
+<sub>Note: this practice repository is currently private, so other visitors may not be able to open it until its visibility is changed.</sub>
+
+</td>
+</tr>
+</table>
+
+**My C workflow:** Understand the problem → Plan the logic → Write the code → Compile with warnings → Test edge cases → Debug → Document
+
+---
+
 ## 🧭 Current Open-Source Tracks
 
 <table>
