@@ -1,0 +1,35 @@
+name: Update profile artwork
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-art
+  cancel-in-progress: false
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - name: Install lightweight dependencies
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Fetch public contribution calendar
+        run: python scripts/fetch_contributions.py
+      - name: Render animated heatmap
+        run: python scripts/render_heatmap_svg.py
+      - name: Commit refreshed artwork
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution heatmap [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
