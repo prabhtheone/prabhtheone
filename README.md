@@ -1,3 +1,8 @@
+<img
+  src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif"
+  width="100%"
+/>
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:172554,100:0F766E&height=210&section=header&text=Prabhjot%20Singh&fontSize=46&fontColor=F8FAFC&animation=fadeIn&fontAlignY=35&desc=Computer%20Science%20%7C%20Open%20Source%20%7C%20AI%2FML&descSize=15&descAlignY=58" width="100%" alt="Prabhjot Singh — Computer Science, open source and AI/ML" />
