@@ -4,8 +4,8 @@
 
 <table>
 <tr>
-<td width="42%" valign="top" align="center"><img src="./avi-ascii.svg" width="100%" alt="Animated ASCII portrait of Prabhjot Singh" /></td>
-<td width="58%" valign="top"><img src="./info-card.svg" width="100%" alt="Terminal-style developer information card" /></td>
+<td width="50%" valign="centre" align="center"><img src="./avi-ascii.svg" width="100%" alt="Animated ASCII portrait of Prabhjot Singh" /></td>
+
 </tr>
 </table>
 
