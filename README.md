@@ -1,5 +1,14 @@
 
 
+
+
+<table>
+<tr>
+<td width="42%" valign="top" align="center"><img src="./avi-ascii.svg" width="100%" alt="Animated ASCII portrait of Prabhjot Singh" /></td>
+<td width="58%" valign="top"><img src="./info-card.svg" width="100%" alt="Terminal-style developer information card" /></td>
+</tr>
+</table>
+
 <div align="center">
 <img
   src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif"
