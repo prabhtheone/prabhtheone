@@ -1,9 +1,5 @@
 
-<table>
-<tr>
-<td width="100%" valign="top" align="center"><img src="./avi-ascii.svg" width="50%" alt="Animated ASCII portrait of Prabhjot Singh" /></td>
 
-</tr>
 </table>
 
 <div align="center">
