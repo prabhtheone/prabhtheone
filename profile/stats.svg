@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Prabhjot Singh&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 10, Total Commits  : 442, Total PRs: 37, Total PRs Merged: 16, Merged PRs Percentage: 43.24, Total PRs Reviewed: 1, Total Issues: 0, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 10, Total Commits  : 459, Total PRs: 38, Total PRs Merged: 16, Merged PRs Percentage: 42.11, Total PRs Reviewed: 1, Total Issues: 0, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 183.5408589456951;
+        stroke-dashoffset: 182.6617315054353;
       }
     }
   
@@ -153,7 +153,7 @@
           Top
         </text>
         <text x="-5" y="12" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="percentile-rank-value" class="rank-percentile-text">
-          73.0%
+          72.7%
         </text>
       
         </g>
@@ -187,7 +187,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >442</text>
+      >459</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -202,7 +202,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >37</text>
+      >38</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -232,7 +232,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >43.24 %</text>
+      >42.11 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">

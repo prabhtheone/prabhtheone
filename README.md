@@ -1,3 +1,8 @@
+
+
+
+
+
 <div align="center">
 
 <img src="./cards/hero.svg" width="100%" alt="Prabhjot Singh — B.Tech CSE student building with C and C++ and contributing to open source" />
@@ -20,3 +25,15 @@
 <sub>Learn deeply. Build useful things. Contribute consistently.</sub>
 
 </div>
+
+
+
+
+
+</table>
+
+<div align="center">
+<img
+  src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif"
+  width="75%"
+/>
