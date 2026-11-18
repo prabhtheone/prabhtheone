@@ -1,0 +1,35 @@
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+Copyright 2017 IBM Corp. with Reserved Font Name "Plex"
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development
+of collaborative font projects, to support font creation efforts, and to provide
+a free and open framework for sharing fonts.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+the Font Software, to use, study, copy, merge, embed, modify, redistribute, and
+sell modified and unmodified copies, subject to these conditions:
+
+1. Neither the Font Software nor any of its individual components may be sold
+   by itself.
+2. Original or Modified Versions may be bundled, redistributed, and/or sold
+   with software, provided each copy contains the copyright notice and this
+   license.
+3. No Modified Version may use Reserved Font Name(s) without written permission.
+4. The copyright holder's or author's names may not be used to promote or
+   endorse a Modified Version, except to acknowledge their contribution.
+5. The Font Software, modified or unmodified, must be distributed entirely
+   under this license.
+
+TERMINATION
+This license becomes null and void if the above conditions are not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE
+OF THE FONT SOFTWARE.
