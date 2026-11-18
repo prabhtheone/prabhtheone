@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  heatmap:
+  profile-art:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,16 +24,16 @@ jobs:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: scripts/requirements.txt
-      - name: Install lightweight dependencies
+      - name: Install renderer dependencies
         run: python -m pip install -r scripts/requirements.txt
-      - name: Fetch public contribution calendar
+      - name: Refresh daily contribution data
         run: python scripts/fetch_contributions.py
-      - name: Render animated heatmap
+      - name: Render existing animated contribution heatmap
         run: python scripts/render_heatmap_svg.py
-      - name: Rebase generated files onto the latest main
-        run: git pull --rebase --autostash origin main
+      - name: Render animated profile card stack
+        run: python scripts/render_profile_cards.py
       - name: Commit refreshed artwork
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution heatmap [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          commit_message: "chore: refresh animated profile cards [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg cards/*.svg"
