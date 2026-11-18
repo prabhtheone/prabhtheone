@@ -43,10 +43,10 @@ def svg(name, body, w=1000, h=260, delay=0, fonts=""):
     <style>
     @keyframes enter{{from{{opacity:0;transform:translateY(18px)}}to{{opacity:1;transform:translateY(0)}}}}
     .card-enter{{opacity:0;animation:enter .75s cubic-bezier(.2,.7,.2,1) {delay}s forwards}}
-    @media(prefers-reduced-motion:reduce){{*,*::before,*::after{{animation:none!important;transition:none!important;opacity:1!important;transform:none!important}}}}
+    @media(prefers-reduced-motion:reduce){{*,*::before,*::after{{animation:none!important;transition:none!important;opacity:1!important;transform:none!important}} .smil{{display:none!important}}}}
     </style>"""
     if STATIC: motion='<style>.card-enter{opacity:1}</style>'
-    smil = '' if STATIC else f'<animate attributeName="opacity" from="0" to="1" dur="0.75s" begin="{delay}s" fill="freeze"/>'
+    smil = '' if STATIC else f'<animate class="smil" attributeName="opacity" from="0" to="1" dur="0.75s" begin="{delay}s" fill="freeze"/>'
     return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img">
     <title>{esc(name)}</title><defs><linearGradient id="shine"><stop stop-color="{GREEN}" stop-opacity=".2"/><stop offset="1" stop-color="{BLUE}" stop-opacity="0"/></linearGradient></defs>
     <style>{fonts}text{{font-family:Inter,Arial,sans-serif}}.mono{{font-family:Plex,'Courier New',monospace}}</style>{motion}
