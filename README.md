@@ -16,7 +16,6 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=prabhtheone&label=PROFILE%20VIEWS&color=E11D48&style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -63,28 +62,27 @@ I’m especially interested in learning from established codebases and contribut
 
 <img src="./cards/divider.svg" width="100%" alt="" />
 
-## 🚀 Build log
+## 🚀 Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/prabhtheone/banking-system"><img src="./cards/repo-banking-system.svg" width="100%" alt="Banking System in C" /></a>
-      <p><b>Banking System in C</b><br/>A terminal-based banking simulation for practising structs, input validation, file I/O, transactions and testing.</p>
+      <a href="https://github.com/prabhtheone/CivicBin-AI"><img src="./cards/repo-civicbin-ai.svg" width="100%" alt="CivicBin AI" /></a>
+      <p><b>CivicBin AI</b><br/>A documentation-first, evidence-led workflow for reviewing possible waste-disposal incidents in authorized video, with human verification.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/prabhtheone/FirstPR-AI"><img src="./cards/repo-FirstPR-AI.svg" width="100%" alt="FirstPR AI" /></a>
-      <p><b>FirstPR AI</b><br/>An AI mentor that helps beginners understand GitHub issues, explore codebases, plan tests and prepare contributions.</p>
+      <a href="https://github.com/prabhtheone/Crop-AI"><img src="./cards/repo-crop-ai.svg" width="100%" alt="Crop AI" /></a>
+      <p><b>Crop AI</b><br/>A two-stage image-classification project for five crops, with an additional Guava quality-grading model.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/prabhtheone/ledger-fintech-demo"><img src="./cards/repo-ledger-fintech-demo.svg" width="100%" alt="Ledger FinTech Demo" /></a>
-      <p><b>Ledger — FinTech Demo</b><br/>A browser-only dashboard demo for wallets, payments, budgeting, fraud workflows and merchant operations.</p>
+      <a href="https://github.com/prabhtheone/banking-system"><img src="./cards/repo-banking-system.svg" width="100%" alt="Banking System in C" /></a>
+      <p><b>Banking System in C</b><br/>A terminal banking simulation exploring account operations, input validation, local file persistence and regression tests.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>⌨️ C Programming Practice</h3>
-      <p>A growing collection of C exercises covering fundamentals, control flow, functions, recursion, arrays, strings, pointers, structures and file handling.</p>
-      <a href="https://github.com/prabhtheone/programs-of-c"><img src="https://img.shields.io/badge/Explore%20repository-E11D48?style=for-the-badge&logo=github&logoColor=white" alt="Explore C programming practice repository" /></a>
+      <a href="https://github.com/prabhtheone/FirstPR-AI"><img src="./cards/repo-FirstPR-AI.svg" width="100%" alt="FirstPR AI" /></a>
+      <p><b>FirstPR AI</b><br/>A beginner-friendly AI mentor for understanding issues, exploring codebases, planning tests and preparing reviewable contributions.</p>
     </td>
   </tr>
 </table>
@@ -109,6 +107,6 @@ I’m especially interested in learning from established codebases and contribut
 
 <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=115&color=0:7F1020,50:E11D48,100:FF3B4E" width="100%" alt="" />
 
-<sub>Ideas never die. Keep building. 🔴</sub>
+<sub>A man can die, but not his ideas. 🔴</sub>
 
 </div>
