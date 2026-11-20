@@ -12,10 +12,10 @@ DATA = ROOT / "data" / "contributions.json"
 STATIC = os.getenv("STATIC", "0") == "1"
 BG, PANEL, EDGE, FG, MUTED, GREEN, BLUE = "#0B080A", "#190D10", "#42131D", "#FFF1F2", "#D6A3AA", "#FF3B4E", "#FF7A86"
 REPOS = [
- ("CCExtractor", "ccextractor", "C · Open source", "Subtitle extraction and media tooling; my primary open-source focus."),
- ("Banking System", "banking-system", "C · Systems fundamentals", "Terminal banking simulation focused on validation, persistence and tests."),
- ("FirstPR AI", "FirstPR-AI", "Python · Local AI", "A contribution mentor for exploring issues, codebases and test plans."),
- ("Ledger FinTech Demo", "ledger-fintech-demo", "React · FinTech", "Browser-based wallet, payments and financial-workflow demonstration."),
+ ("CivicBin AI", "civicbin-ai", "Python · Vision workflow", "Documentation-first, evidence-led video review workflow with human verification."),
+ ("Crop AI", "crop-ai", "TensorFlow · Computer vision", "Two-stage classifier for five crops, with additional Guava quality grading."),
+ ("Banking System", "banking-system", "C · Systems fundamentals", "Terminal banking simulation focused on validation, persistence and regression tests."),
+ ("FirstPR AI", "FirstPR-AI", "Python · Local AI", "A mentor for issue analysis, codebase exploration, test planning and contribution safety."),
 ]
 def esc(s): return html.escape(str(s), quote=True)
 def font_data(chars):
@@ -82,8 +82,8 @@ def render_whoami(fonts):
         (160, [(BLUE, "    string "), (FG, "name"), (FG, " = "), (GREEN, '"Prabhjot Singh"'), (FG, ";")], 16),
         (190, [(BLUE, "    string "), (FG, "role"), (FG, " = "), (GREEN, '"B.Tech CSE Student"'), (FG, ";")], 16),
         (220, [(BLUE, "    vector<string> "), (FG, "focus"), (FG, " = {"), (GREEN, '"C", "C++", "DSA", "Open Source"'), (FG, "};")], 15),
-        (250, [(BLUE, "    vector<string> "), (FG, "building"), (FG, " = {"), (GREEN, '"Banking System", "FirstPR AI", "Ledger"'), (FG, "};")], 14),
-        (280, [(BLUE, "    string "), (FG, "mindset"), (FG, " = "), (GREEN, '"Ideas never die."'), (FG, ";")], 16),
+        (250, [(BLUE, "    vector<string> "), (FG, "building"), (FG, " = {"), (GREEN, '"CivicBin AI", "Crop AI", "Banking System", "FirstPR AI"'), (FG, "};")], 14),
+        (280, [(BLUE, "    string "), (FG, "mindset"), (FG, " = "), (GREEN, '"A man can die, but not his ideas."'), (FG, ";")], 16),
         (310, [(GREEN, "};")], 18),
     ]
     for y, parts, size in lines:
@@ -104,10 +104,10 @@ def render_journey(fonts):
     milestones = [
         ("01", "FOUNDATIONS", ["C, C++, DSA and problem solving", "built through regular practice,", "debugging and learning by doing."]),
         ("02", "FIRST SYSTEM", ["Banking System in C with", "authentication, input validation,", "file persistence and transactions."]),
-        ("03", "DEVELOPER TOOLING", ["FirstPR AI: a mentor concept for", "understanding issues, codebases", "and planning useful tests."]),
-        ("04", "FINTECH EXPLORATION", ["Ledger demo exploring wallets,", "payments, budgeting, fraud flows", "and merchant operations."]),
-        ("05", "OPEN-SOURCE COMMUNITY", ["Hacktoberfest and KCET PRs/events;", "learning collaborative workflows,", "focused fixes and reviewable PRs."]),
-        ("06", "RECOGNITION & NEXT", ["Top-5 at an NIT Jalandhar event;", "Campus Ambassador — Tata", "Imagination Challenge."]),
+        ("03", "OPEN-SOURCE TOOLING", ["FirstPR AI: a mentor for issue", "analysis, codebase exploration", "and practical test planning."]),
+        ("04", "CIVICBIN AI", ["Evidence-led review workflow for", "possible waste events in video,", "with human verification."]),
+        ("05", "CROP AI", ["Two-stage image classification", "for five crops, with additional", "Guava quality grading."]),
+        ("06", "COMMUNITY & RECOGNITION", ["Hacktoberfest and KCET PR/events;", "Top-5 at an NIT Jalandhar event;", "Tata Imagination Challenge ambassador."]),
     ]
     placements = [
         (25, 112, 175, 91, milestones[0]),
@@ -135,7 +135,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     data=json.loads(DATA.read_text()) if DATA.exists() else {"days":[]}
     days=data.get("days",[])
-    chars="".join([ "Prabhjot Singh Building useful software and learning systems engineering C C++ GitHub LinkedIn Portfolio Featured repositories contributions month active days busiest day streak Ideas never die ~/ideas $ "]+[r[0]+r[2]+r[3] for r in REPOS]+[d["date"] for d in days]) + "Who am I C++ Developer Profile struct Developer string name Prabhjot Singh role B.Tech CSE Student vector focus C C++ DSA Open Source building Banking System FirstPR AI Ledger mindset Ideas never die THE JOURNEY SO FAR FOUNDATIONS Problem solving DSA debugging stronger fundamentals FIRST SYSTEM authentication validation file persistence transaction flows DEVELOPER TOOLING mentor concept exploring issues codebases test plans FINTECH EXPLORATION wallets payments budgeting fraud workflows merchant operations OPEN SOURCE COMMUNITY Hacktoberfest KCET PRs events collaborative maintainer-friendly workflows RECOGNITION Top-5 NIT Jalandhar event Campus Ambassador Tata Imagination Challenge"
+    chars="".join(["Prabhjot Singh Building useful software and learning systems engineering C C++ GitHub LinkedIn Portfolio Featured repositories contributions month active days busiest day streak A man can die, but not his ideas. ~/ideas $"]+[r[0]+r[2]+r[3] for r in REPOS]+[d["date"] for d in days]) + "Who am I C++ Developer Profile struct Developer string name Prabhjot Singh role B.Tech CSE Student vector focus C C++ DSA Open Source building CivicBin AI Crop AI Banking System FirstPR AI mindset A man can die, but not his ideas. THE JOURNEY SO FAR FOUNDATIONS Problem solving DSA debugging FIRST SYSTEM authentication validation file persistence transactions OPEN SOURCE TOOLING issue analysis codebase exploration test planning CIVICBIN AI evidence-led video review human verification CROP AI five crops Guava quality grading COMMUNITY AND RECOGNITION Hacktoberfest KCET PRs Top-5 NIT Jalandhar Tata Imagination Challenge ambassador"
     fonts=font_data(chars)
     render_whoami(fonts)
     render_journey(fonts)
@@ -148,9 +148,9 @@ def main():
       + '<circle cx="122" cy="174" r="3.5" fill="#6B3039"/>'
       + txt(142,179,"~/ideas",11,MUTED,500,"mono")
       + '<text x="96" y="201" font-size="16" fill="#FF7A86" font-weight="600" class="mono">$</text>'
-      + '<defs><clipPath id="typed-line"><rect x="116" y="183" width="0" height="23"><animate attributeName="width" values="0;170;170;0" keyTimes="0;0.72;0.9;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath></defs>'
-      + '<text x="116" y="201" font-size="16" fill="#FFF1F2" font-weight="600" class="mono" clip-path="url(#typed-line)">Ideas never die.</text>'
-      + '<rect x="116" y="185" width="2" height="19" rx="1" fill="#FF3B4E"><animate attributeName="x" values="116;270;270;116" keyTimes="0;0.72;0.9;1" dur="4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4.8s" repeatCount="indefinite"/></rect>'
+      + '<defs><clipPath id="typed-line"><rect x="116" y="183" width="0" height="23"><animate attributeName="width" values="0;352;352;0" keyTimes="0;0.72;0.9;1" dur="6.2s" repeatCount="indefinite"/></rect></clipPath></defs>'
+      + '<text x="116" y="201" font-size="16" fill="#FFF1F2" font-weight="600" class="mono" clip-path="url(#typed-line)">A man can die, but not his ideas.</text>'
+      + '<rect x="116" y="185" width="2" height="19" rx="1" fill="#FF3B4E"><animate attributeName="x" values="116;468;468;116" keyTimes="0;0.72;0.9;1" dur="6.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4.8s" repeatCount="indefinite"/></rect>'
     )
     hero = (
       rect(35,39,7,240,GREEN,4,GREEN)
