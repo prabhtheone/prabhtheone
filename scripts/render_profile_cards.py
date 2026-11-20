@@ -65,12 +65,80 @@ def streak(days):
     if by.get(d,0)==0: d-=dt.timedelta(days=1)
     while by.get(d,0)>0: n+=1; d-=dt.timedelta(days=1)
     return n
+
+def code_line(y, parts, size=16):
+    spans = "".join(f'<tspan fill="{color}">{esc(value)}</tspan>' for color, value in parts)
+    return f'<text x="72" y="{y}" font-size="{size}" class="mono">{spans}</text>'
+
+def render_whoami(fonts):
+    body = txt(45, 48, "WHOAMI // DEVELOPER PROFILE", 14, GREEN, 700, "mono")
+    body += rect(35, 68, 930, 270, PANEL, 16, EDGE)
+    body += '<circle cx="62" cy="91" r="4" fill="#FF3B4E"/>'
+    body += '<circle cx="77" cy="91" r="4" fill="#FF7A86"/>'
+    body += '<circle cx="92" cy="91" r="4" fill="#6B3039"/>'
+    body += txt(118, 96, "~/prabhjot/profile.cpp", 11, MUTED, 500, "mono")
+    lines = [
+        (126, [(GREEN, "struct "), (FG, "Developer"), (GREEN, " {")], 18),
+        (160, [(BLUE, "    string "), (FG, "name"), (FG, " = "), (GREEN, '"Prabhjot Singh"'), (FG, ";")], 16),
+        (190, [(BLUE, "    string "), (FG, "role"), (FG, " = "), (GREEN, '"B.Tech CSE Student"'), (FG, ";")], 16),
+        (220, [(BLUE, "    vector<string> "), (FG, "focus"), (FG, " = {"), (GREEN, '"C", "C++", "DSA", "Open Source"'), (FG, "};")], 15),
+        (250, [(BLUE, "    vector<string> "), (FG, "building"), (FG, " = {"), (GREEN, '"Banking System", "FirstPR AI", "Ledger"'), (FG, "};")], 14),
+        (280, [(BLUE, "    string "), (FG, "mindset"), (FG, " = "), (GREEN, '"Ideas never die."'), (FG, ";")], 16),
+        (310, [(GREEN, "};")], 18),
+    ]
+    for y, parts, size in lines:
+        body += code_line(y, parts, size)
+    if not STATIC:
+        body += '<circle cx="908" cy="92" r="5" fill="#FF3B4E"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/></circle>'
+    write("whoami.svg", body, 365, 0.35, fonts)
+
+def render_journey(fonts):
+    body = txt(45, 48, "THE JOURNEY SO FAR", 15, GREEN, 700, "mono")
+    body += txt(955, 48, "01 → 06  /  STILL IN PROGRESS", 11, MUTED, 500, "mono")
+    body += '<defs><path id="journey-route" d="M175 91 H825 V281 H175"/></defs>'
+    body += '<path d="M175 91 H825 V281 H175" fill="none" stroke="#6B3039" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 9"/>'
+    if not STATIC:
+        body += '<path d="M175 91 H825 V281 H175" fill="none" stroke="#FF3B4E" stroke-width="3" stroke-linecap="round" stroke-dasharray="22 210" opacity=".95"><animate attributeName="stroke-dashoffset" values="0;-696" dur="8s" repeatCount="indefinite"/></path>'
+        body += '<circle r="6" fill="#FFF1F2" stroke="#FF3B4E" stroke-width="3"><animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#journey-route"/></animateMotion></circle>'
+
+    milestones = [
+        ("01", "FOUNDATIONS", ["C, C++, DSA and problem solving", "built through regular practice,", "debugging and learning by doing."]),
+        ("02", "FIRST SYSTEM", ["Banking System in C with", "authentication, input validation,", "file persistence and transactions."]),
+        ("03", "DEVELOPER TOOLING", ["FirstPR AI: a mentor concept for", "understanding issues, codebases", "and planning useful tests."]),
+        ("04", "FINTECH EXPLORATION", ["Ledger demo exploring wallets,", "payments, budgeting, fraud flows", "and merchant operations."]),
+        ("05", "OPEN-SOURCE COMMUNITY", ["Hacktoberfest and KCET PRs/events;", "learning collaborative workflows,", "focused fixes and reviewable PRs."]),
+        ("06", "RECOGNITION & NEXT", ["Top-5 at an NIT Jalandhar event;", "Campus Ambassador — Tata", "Imagination Challenge."]),
+    ]
+    placements = [
+        (25, 112, 175, 91, milestones[0]),
+        (350, 112, 500, 91, milestones[1]),
+        (675, 112, 825, 91, milestones[2]),
+        (675, 302, 825, 281, milestones[3]),
+        (350, 302, 500, 281, milestones[4]),
+        (25, 302, 175, 281, milestones[5]),
+    ]
+    for i, (x, y, cx, cy, item) in enumerate(placements):
+        number, title, desc = item
+        body += rect(x, y, 300, 145, PANEL, 13, EDGE)
+        body += f'<rect x="{x+1}" y="{y+1}" width="298" height="4" rx="2" fill="{GREEN}"/>'
+        body += txt(x+18, y+34, number, 13, GREEN, 700, "mono")
+        body += txt(x+62, y+34, title, 14, FG, 700)
+        for j, line in enumerate(desc):
+            body += txt(x+18, y+70+j*22, line, 12, MUTED, 400)
+        body += f'<circle cx="{cx}" cy="{cy}" r="13" fill="{PANEL}" stroke="{GREEN}" stroke-width="2"/>'
+        body += txt(cx-9, cy+4, number, 9, FG, 700, "mono")
+        if not STATIC:
+            body += f'<circle cx="{cx}" cy="{cy}" r="16" fill="none" stroke="{GREEN}" stroke-width="1.5" opacity="0"><animate attributeName="r" values="13;22;13" dur="3.6s" begin="{i*0.42:.2f}s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="3.6s" begin="{i*0.42:.2f}s" repeatCount="indefinite"/></circle>'
+    write("journey.svg", body, 475, 0.55, fonts)
+
 def main():
     OUT.mkdir(exist_ok=True)
     data=json.loads(DATA.read_text()) if DATA.exists() else {"days":[]}
     days=data.get("days",[])
-    chars="".join([ "Prabhjot Singh Building useful software and learning systems engineering C C++ GitHub LinkedIn Portfolio Featured repositories contributions month active days busiest day streak Ideas never die ~/ideas $ "]+[r[0]+r[2]+r[3] for r in REPOS]+[d["date"] for d in days])
+    chars="".join([ "Prabhjot Singh Building useful software and learning systems engineering C C++ GitHub LinkedIn Portfolio Featured repositories contributions month active days busiest day streak Ideas never die ~/ideas $ "]+[r[0]+r[2]+r[3] for r in REPOS]+[d["date"] for d in days]) + "Who am I C++ Developer Profile struct Developer string name Prabhjot Singh role B.Tech CSE Student vector focus C C++ DSA Open Source building Banking System FirstPR AI Ledger mindset Ideas never die THE JOURNEY SO FAR FOUNDATIONS Problem solving DSA debugging stronger fundamentals FIRST SYSTEM authentication validation file persistence transaction flows DEVELOPER TOOLING mentor concept exploring issues codebases test plans FINTECH EXPLORATION wallets payments budgeting fraud workflows merchant operations OPEN SOURCE COMMUNITY Hacktoberfest KCET PRs events collaborative maintainer-friendly workflows RECOGNITION Top-5 NIT Jalandhar event Campus Ambassador Tata Imagination Challenge"
     fonts=font_data(chars)
+    render_whoami(fonts)
+    render_journey(fonts)
     # A compact terminal panel under the name. The clip-path reveal makes the
     # motto appear as if it is being typed, one character at a time.
     terminal = (
@@ -115,8 +183,8 @@ def main():
     for i,(title,slug,tech,desc) in enumerate(REPOS):
       body=txt(45,58,"FEATURED REPOSITORY",14,GREEN,700,"mono")+txt(45,112,title,34,FG,700)+txt(45,151,tech,17,BLUE,600)+txt(45,197,desc,17,MUTED)+txt(925,218,"↗",25,GREEN,700)
       write("repo-"+slug+".svg",body,245,0.7+i*.2,fonts)
-    # GitHub calendar, seven rows; day cells remain native SVG shapes for img rendering.
-    body=txt(45,55,"CONTRIBUTION GRAPH",15,GREEN,700,"mono")
+    # GitHub calendar with a staggered crimson pulse that travels diagonally across the cells.
+    body=txt(45,55,"CONTRIBUTION MAP  //  MOVING WAVE",15,GREEN,700,"mono")
     by={dt.date.fromisoformat(d["date"]):int(d.get("count",0)) for d in days if d.get("date")}
     dates=sorted(by)
     if dates:
@@ -124,8 +192,10 @@ def main():
       for d in dates:
         col=(d-start).days//7; row=d.weekday(); val=by[d]
         opacity=.12 if val==0 else min(.95,.35+.15*val)
-        body+=f'<rect x="{45+col*13}" y="{85+row*17}" width="10" height="13" rx="3" fill="{GREEN}" opacity="{opacity:.2f}"><title>{d.isoformat()}: {val} contributions</title></rect>'
-    body+=txt(45,235,"Less",11,MUTED)+''.join(f'<rect x="{90+i*17}" y="224" width="12" height="12" rx="3" fill="{GREEN}" opacity="{v}"/>' for i,v in enumerate([.12,.35,.55,.75,.95]))+txt(190,235,"More",11,MUTED)
+        peak=min(.98,max(.58,opacity+.48))
+        pulse="" if STATIC else f'<animate class="smil" attributeName="opacity" values="{opacity:.2f};{peak:.2f};{opacity:.2f}" keyTimes="0;.16;1" dur="5.2s" begin="{col*.075+row*.10:.2f}s" repeatCount="indefinite"/>'
+        body+=f'<rect x="{45+col*13}" y="{85+row*17}" width="10" height="13" rx="3" fill="{GREEN}" opacity="{opacity:.2f}"><title>{d.isoformat()}: {val} contributions</title>{pulse}</rect>'
+    body+=txt(45,235,"LESS",11,MUTED)+''.join(f'<rect x="{90+i*17}" y="224" width="12" height="12" rx="3" fill="{GREEN}" opacity="{v}"/>' for i,v in enumerate([.12,.35,.55,.75,.95]))+txt(190,235,"MORE",11,MUTED)
     write("contribution-graph.svg",body,260,1.4,fonts)
     print("Rendered",len(list(OUT.glob("*.svg"))),"SVG cards ("+("static" if STATIC else "animated")+")")
 if __name__=="__main__": main()
