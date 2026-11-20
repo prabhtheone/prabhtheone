@@ -10,7 +10,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "cards"
 DATA = ROOT / "data" / "contributions.json"
 STATIC = os.getenv("STATIC", "0") == "1"
-BG, PANEL, EDGE, FG, MUTED, GREEN, BLUE = "#070b10", "#0d141c", "#1b2a36", "#e8f0f5", "#91a4b3", "#39ff88", "#76b7ff"
+BG, PANEL, EDGE, FG, MUTED, GREEN, BLUE = "#0B080A", "#190D10", "#42131D", "#FFF1F2", "#D6A3AA", "#FF3B4E", "#FF7A86"
 REPOS = [
  ("CCExtractor", "ccextractor", "C · Open source", "Subtitle extraction and media tooling; my primary open-source focus."),
  ("Banking System", "banking-system", "C · Systems fundamentals", "Terminal banking simulation focused on validation, persistence and tests."),
@@ -69,9 +69,30 @@ def main():
     OUT.mkdir(exist_ok=True)
     data=json.loads(DATA.read_text()) if DATA.exists() else {"days":[]}
     days=data.get("days",[])
-    chars="".join([ "Prabhjot Singh Building useful software and learning systems engineering C C++ GitHub LinkedIn Portfolio Featured repositories contributions month active days busiest day streak "]+[r[0]+r[2]+r[3] for r in REPOS]+[d["date"] for d in days])
+    chars="".join([ "Prabhjot Singh Building useful software and learning systems engineering C C++ GitHub LinkedIn Portfolio Featured repositories contributions month active days busiest day streak Ideas never die ~/ideas $ "]+[r[0]+r[2]+r[3] for r in REPOS]+[d["date"] for d in days])
     fonts=font_data(chars)
-    write("hero.svg", rect(35,40,8,178,GREEN,4,GREEN)+txt(75,105,"PRABHJOT SINGH",48,FG,750)+txt(77,151,"B.Tech CSE student · India",22,GREEN,600)+txt(77,190,"Building useful software, learning systems engineering, and contributing to open source.",19,MUTED)+txt(77,232,"C  /  C++  /  PYTHON  /  OPEN SOURCE",14,BLUE,600,"mono"),260,0,fonts)
+    # A compact terminal panel under the name. The clip-path reveal makes the
+    # motto appear as if it is being typed, one character at a time.
+    terminal = (
+      rect(76,158,520,58,PANEL,12,EDGE)
+      + '<circle cx="96" cy="174" r="3.5" fill="#FF3B4E"/>'
+      + '<circle cx="109" cy="174" r="3.5" fill="#FF7A86"/>'
+      + '<circle cx="122" cy="174" r="3.5" fill="#6B3039"/>'
+      + txt(142,179,"~/ideas",11,MUTED,500,"mono")
+      + '<text x="96" y="201" font-size="16" fill="#FF7A86" font-weight="600" class="mono">$</text>'
+      + '<defs><clipPath id="typed-line"><rect x="116" y="183" width="0" height="23"><animate attributeName="width" values="0;238;238;0" keyTimes="0;0.72;0.9;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath></defs>'
+      + '<text x="116" y="201" font-size="16" fill="#FFF1F2" font-weight="600" class="mono" clip-path="url(#typed-line)">Ideas never die.</text>'
+      + '<rect x="359" y="185" width="2" height="19" rx="1" fill="#FF3B4E"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4.8s" repeatCount="indefinite"/></rect>'
+    )
+    hero = (
+      rect(35,39,7,240,GREEN,4,GREEN)
+      + txt(75,100,"PRABHJOT SINGH",46,FG,750)
+      + txt(77,137,"B.Tech CSE student · India",19,GREEN,650)
+      + terminal
+      + txt(77,248,"Building useful software, learning systems engineering, and contributing to open source.",16,MUTED)
+      + txt(77,276,"C  /  C++  /  PYTHON  /  OPEN SOURCE",13,BLUE,650,"mono")
+    )
+    write("hero.svg",hero,310,0,fonts)
     for filename,label,sub,url in [
       ("github.svg","GITHUB","Open-source work","https://github.com/prabhtheone"),
       ("linkedin.svg","LINKEDIN","Let's connect","https://www.linkedin.com/in/prabhjot-singh-6aa788432"),
