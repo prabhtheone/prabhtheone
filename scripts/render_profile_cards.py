@@ -80,9 +80,9 @@ def main():
       + '<circle cx="122" cy="174" r="3.5" fill="#6B3039"/>'
       + txt(142,179,"~/ideas",11,MUTED,500,"mono")
       + '<text x="96" y="201" font-size="16" fill="#FF7A86" font-weight="600" class="mono">$</text>'
-      + '<defs><clipPath id="typed-line"><rect x="116" y="183" width="0" height="23"><animate attributeName="width" values="0;238;238;0" keyTimes="0;0.72;0.9;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath></defs>'
+      + '<defs><clipPath id="typed-line"><rect x="116" y="183" width="0" height="23"><animate attributeName="width" values="0;170;170;0" keyTimes="0;0.72;0.9;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath></defs>'
       + '<text x="116" y="201" font-size="16" fill="#FFF1F2" font-weight="600" class="mono" clip-path="url(#typed-line)">Ideas never die.</text>'
-      + '<rect x="359" y="185" width="2" height="19" rx="1" fill="#FF3B4E"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4.8s" repeatCount="indefinite"/></rect>'
+      + '<rect x="270" y="185" width="2" height="19" rx="1" fill="#FF3B4E"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4.8s" repeatCount="indefinite"/></rect>'
     )
     hero = (
       rect(35,39,7,240,GREEN,4,GREEN)
