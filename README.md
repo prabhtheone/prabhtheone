@@ -5,7 +5,7 @@
 <img src="./cards/ticker.svg" width="100%" alt="C, C++, Python, problem solving, Git and GitHub, debugging and open source" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=FF3B4E&center=true&vCenter=true&width=760&height=42&lines=Learning+by+building+real+software;Debugging+carefully%2C+testing+thoughtfully;Contributing+to+open+source+one+fix+at+a+time" alt="Typing animation: learning, building, debugging and contributing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=FF3B4E&center=true&vCenter=true&width=760&height=42&lines=Learning+by+building+real+software;Exploring+C%2B%2B+and+computer+science;Debugging+carefully%2C+testing+thoughtfully;Contributing+to+open+source+one+fix+at+a+time" alt="Typing animation: learning, building, debugging and contributing" />
 </a>
 
 <br/>
@@ -22,46 +22,17 @@
 
 <img src="./cards/divider.svg" width="100%" alt="" />
 
-## 🧬 whoami
+## 🧬 Who am I?
 
-```cpp
-struct Developer {
-    string name = "Prabhjot Singh";
-    string role = "B.Tech CSE Student";
+<img src="./cards/whoami.svg" width="100%" alt="A red terminal-style C++ developer profile card" />
 
-    vector<string> focus = {
-        "C and C++",
-        "Data structures and problem solving",
-        "Open-source contribution",
-        "Building practical software"
-    };
-
-    vector<string> tools = {
-        "Python", "Git", "GitHub", "VS Code"
-    };
-
-    string approach =
-        "Understand the problem. Build. Test. Improve.";
-};
-```
-
-I'm learning computer science by writing code, reading real codebases, debugging problems, and building projects that make concepts practical. I value clear implementations, useful tests, and steady progress over flashy claims.
+I’m learning computer science by writing code, reading real codebases, debugging problems, and building projects that make concepts practical. I value clear implementations, useful tests, and steady progress over flashy claims.
 
 <img src="./cards/divider.svg" width="100%" alt="" />
 
-## ⚙️ How I build
+## 🧭 The journey so far
 
-```mermaid
-flowchart LR
-    A([💡 Problem]) --> B[Understand]
-    B --> C[Design]
-    C --> D[Implement]
-    D --> E[🧪 Test & Debug]
-    E --> F[Review]
-    F --> G([🚀 Ship])
-    classDef step fill:#261116,stroke:#FF7A86,color:#F5F3FF,stroke-width:1.5px;
-    class A,B,C,D,E,F,G step;
-```
+<img src="./cards/journey.svg" width="100%" alt="Animated timeline of my programming foundations, projects, open-source activities and recognition" />
 
 <div align="center">
 
@@ -113,20 +84,11 @@ I’m especially interested in learning from established codebases and contribut
 
 <img src="./cards/divider.svg" width="100%" alt="" />
 
-## 📊 GitHub activity
+## 🔴 Contribution pulse
 
 <div align="center">
 
-<img src="./cards/contributions.svg" width="100%" alt="Monthly contributions, streak, active days and busiest day" />
-
-<a href="https://github.com/prabhtheone?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&hide_border=true&bg_color=0B080A&title_color=FF3B4E&text_color=FFF1F2&icon_color=FF7A86&ring_color=FF3B4E" height="165" alt="GitHub statistics" />
-</a>
-<a href="https://github.com/prabhtheone?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhtheone&layout=compact&hide_border=true&bg_color=0B080A&title_color=FF3B4E&text_color=FFF1F2" height="165" alt="Most used programming languages" />
-</a>
-
-<img src="./cards/contribution-graph.svg" width="100%" alt="GitHub contribution graph" />
+<img src="./cards/contribution-graph.svg" width="100%" alt="GitHub contribution calendar with a travelling red wave animation" />
 
 </div>
 
