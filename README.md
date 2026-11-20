@@ -5,7 +5,7 @@
 <img src="./cards/ticker.svg" width="100%" alt="C, C++, Python, problem solving, Git and GitHub, debugging and open source" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=C084FC&center=true&vCenter=true&width=760&height=42&lines=Learning+by+building+real+software;Exploring+C%2B%2B+and+computer+science;Debugging+carefully%2C+testing+thoughtfully;Contributing+to+open+source+one+fix+at+a+time" alt="Typing animation: learning, building, debugging and contributing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=FF3B4E&center=true&vCenter=true&width=760&height=42&lines=Learning+by+building+real+software;Exploring+C%2B%2B+and+computer+science;Debugging+carefully%2C+testing+thoughtfully;Contributing+to+open+source+one+fix+at+a+time" alt="Typing animation: learning, building, debugging and contributing" />
 </a>
 
 <br/>
@@ -16,7 +16,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=prabhtheone&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=prabhtheone&label=PROFILE%20VIEWS&color=E11D48&style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -59,7 +59,7 @@ flowchart LR
     D --> E[🧪 Test & Debug]
     E --> F[Review]
     F --> G([🚀 Ship])
-    classDef step fill:#21162F,stroke:#A78BFA,color:#F5F3FF,stroke-width:1.5px;
+    classDef step fill:#261116,stroke:#FF7A86,color:#F5F3FF,stroke-width:1.5px;
     class A,B,C,D,E,F,G step;
 ```
 
@@ -120,7 +120,7 @@ I’m especially interested in learning from established codebases and contribut
 <img src="./cards/contributions.svg" width="100%" alt="Monthly contributions, streak, active days and busiest day" />
 
 <a href="https://github.com/prabhtheone?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&hide_border=true&bg_color=0B0B12&title_color=C084FC&text_color=EDE9FE&icon_color=A78BFA&ring_color=C084FC" height="165" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&hide_border=true&bg_color=0B0B12&title_color=C084FC&text_color=EDE9FE&icon_color=A78BFA&ring_color=FF3B4E" height="165" alt="GitHub statistics" />
 </a>
 <a href="https://github.com/prabhtheone?tab=repositories">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhtheone&layout=compact&hide_border=true&bg_color=0B0B12&title_color=C084FC&text_color=EDE9FE" height="165" alt="Most used programming languages" />
@@ -138,8 +138,8 @@ I’m especially interested in learning from established codebases and contribut
 <a href="https://www.linkedin.com/in/prabhjot-singh-6aa788432"><img src="https://img.shields.io/badge/LinkedIn-Connect-C084FC?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
 <a href="https://prabhtheone.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=115&color=0:4C1D95,50:7C3AED,100:C084FC" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=115&color=0:7F1020,50:E11D48,100:FF3B4E" width="100%" alt="" />
 
-<sub>Build. Ship. Merge. Repeat. 💜</sub>
+<sub>Ideas never die. Keep building. 🔴</sub>
 
 </div>
