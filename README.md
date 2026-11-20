@@ -5,7 +5,7 @@
 <img src="./cards/ticker.svg" width="100%" alt="C, C++, Python, problem solving, Git and GitHub, debugging and open source" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=FF3B4E&center=true&vCenter=true&width=760&height=42&lines=Learning+by+building+real+software;Exploring+C%2B%2B+and+computer+science;Debugging+carefully%2C+testing+thoughtfully;Contributing+to+open+source+one+fix+at+a+time" alt="Typing animation: learning, building, debugging and contributing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=FF3B4E&center=true&vCenter=true&width=760&height=42&lines=Learning+by+building+real+software;Debugging+carefully%2C+testing+thoughtfully;Contributing+to+open+source+one+fix+at+a+time" alt="Typing animation: learning, building, debugging and contributing" />
 </a>
 
 <br/>
