@@ -6,6 +6,6 @@
     .card-enter{opacity:0;animation:enter .75s cubic-bezier(.2,.7,.2,1) 0.25s forwards}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;opacity:1!important;transform:none!important} .smil{display:none!important}}
     </style>
-    <rect x="1" y="1" width="998" height="218" rx="22" fill="#0B080A" stroke="#42131D"/>
-    <rect x="1" y="1" width="998" height="5" rx="3" fill="#FF3B4E" opacity=".85"/>
+    <rect x="1" y="1" width="1000" height="218" rx="22" fill="#0B080A" stroke="#42131D"/>
+    <rect x="1" y="1" width="1000" height="5" rx="3" fill="#FF3B4E" opacity=".85"/>
     <g class="card-enter"><rect x="20" y="20" width="960" height="180" rx="12" fill="#190D10" stroke="#42131D"/><text x="55" y="85" font-size="27" fill="#FF3B4E" font-weight="700" class="">GITHUB</text><text x="55" y="130" font-size="18" fill="#D6A3AA" font-weight="400" class="">Open-source work</text><text x="920" y="130" font-size="28" fill="#FF7A86" font-weight="700" class="">↗</text><animate class="smil" attributeName="opacity" from="0" to="1" dur="0.75s" begin="0.25s" fill="freeze"/></g></svg>
