@@ -33,7 +33,20 @@ jobs:
       - name: Render animated profile card stack
         run: python scripts/render_profile_cards.py
       - name: Rebase generated files onto the latest main
-        run: git pull --rebase --autostash origin main
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/profile-art/cards
+          cp data/contributions.json /tmp/profile-art/contributions.json
+          cp contrib-heatmap.svg /tmp/profile-art/contrib-heatmap.svg
+          cp cards/*.svg /tmp/profile-art/cards/
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/profile-art/contributions.json data/contributions.json
+          cp /tmp/profile-art/contrib-heatmap.svg contrib-heatmap.svg
+          cp /tmp/profile-art/cards/*.svg cards/
       - name: Commit refreshed artwork
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
