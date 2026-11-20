@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="76" viewBox="0 0 1000 76" role="img" aria-labelledby="title">
 <title id="title">C, C++, Python, Git, debugging, testing and open source</title>
-<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".52" stop-color="#C084FC"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
-<rect x="1" y="1" width="998" height="74" rx="18" fill="#0B0B12" stroke="#4C1D95"/>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#E11D48"/><stop offset=".52" stop-color="#FF3B4E"/><stop offset="1" stop-color="#FF7A86"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="74" rx="18" fill="#0B0B12" stroke="#7F1020"/>
 <rect x="1" y="1" width="5" height="74" rx="2.5" fill="url(#g)"/>
-<g fill="#EDE9FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="middle">
-<text x="105" y="44">C / C++</text><circle cx="190" cy="38" r="3" fill="#C084FC"/>
-<text x="278" y="44">Python</text><circle cx="365" cy="38" r="3" fill="#C084FC"/>
-<text x="453" y="44">Problem Solving</text><circle cx="558" cy="38" r="3" fill="#C084FC"/>
-<text x="645" y="44">Git &amp; GitHub</text><circle cx="736" cy="38" r="3" fill="#C084FC"/>
-<text x="821" y="44">Debugging</text><circle cx="900" cy="38" r="3" fill="#C084FC"/>
+<g fill="#FFF1F2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="middle">
+<text x="105" y="44">C / C++</text><circle cx="190" cy="38" r="3" fill="#FF3B4E"/>
+<text x="278" y="44">Python</text><circle cx="365" cy="38" r="3" fill="#FF3B4E"/>
+<text x="453" y="44">Problem Solving</text><circle cx="558" cy="38" r="3" fill="#FF3B4E"/>
+<text x="645" y="44">Git &amp; GitHub</text><circle cx="736" cy="38" r="3" fill="#FF3B4E"/>
+<text x="821" y="44">Debugging</text><circle cx="900" cy="38" r="3" fill="#FF3B4E"/>
 <text x="955" y="44">Open Source</text>
 </g></svg>
