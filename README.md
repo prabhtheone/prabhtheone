@@ -106,7 +106,7 @@ I’m especially interested in learning from established codebases and contribut
     <td width="50%" valign="top">
       <h3>⌨️ C Programming Practice</h3>
       <p>A growing collection of C exercises covering fundamentals, control flow, functions, recursion, arrays, strings, pointers, structures and file handling.</p>
-      <a href="https://github.com/prabhtheone/programs-of-c"><img src="https://img.shields.io/badge/Explore%20repository-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Explore C programming practice repository" /></a>
+      <a href="https://github.com/prabhtheone/programs-of-c"><img src="https://img.shields.io/badge/Explore%20repository-E11D48?style=for-the-badge&logo=github&logoColor=white" alt="Explore C programming practice repository" /></a>
     </td>
   </tr>
 </table>
@@ -120,10 +120,10 @@ I’m especially interested in learning from established codebases and contribut
 <img src="./cards/contributions.svg" width="100%" alt="Monthly contributions, streak, active days and busiest day" />
 
 <a href="https://github.com/prabhtheone?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&hide_border=true&bg_color=0B0B12&title_color=C084FC&text_color=EDE9FE&icon_color=A78BFA&ring_color=FF3B4E" height="165" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api?username=prabhtheone&show_icons=true&hide_border=true&bg_color=0B080A&title_color=FF3B4E&text_color=FFF1F2&icon_color=FF7A86&ring_color=FF3B4E" height="165" alt="GitHub statistics" />
 </a>
 <a href="https://github.com/prabhtheone?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhtheone&layout=compact&hide_border=true&bg_color=0B0B12&title_color=C084FC&text_color=EDE9FE" height="165" alt="Most used programming languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhtheone&layout=compact&hide_border=true&bg_color=0B080A&title_color=FF3B4E&text_color=FFF1F2" height="165" alt="Most used programming languages" />
 </a>
 
 <img src="./cards/contribution-graph.svg" width="100%" alt="GitHub contribution graph" />
@@ -134,9 +134,9 @@ I’m especially interested in learning from established codebases and contribut
 
 <div align="center">
 
-<a href="https://github.com/prabhtheone"><img src="https://img.shields.io/badge/GitHub-prabhtheone-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-<a href="https://www.linkedin.com/in/prabhjot-singh-6aa788432"><img src="https://img.shields.io/badge/LinkedIn-Connect-C084FC?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
-<a href="https://prabhtheone.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website" /></a>
+<a href="https://github.com/prabhtheone"><img src="https://img.shields.io/badge/GitHub-prabhtheone-E11D48?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+<a href="https://www.linkedin.com/in/prabhjot-singh-6aa788432"><img src="https://img.shields.io/badge/LinkedIn-Connect-FF3B4E?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+<a href="https://prabhtheone.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-FF7A86?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website" /></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=115&color=0:7F1020,50:E11D48,100:FF3B4E" width="100%" alt="" />
 
