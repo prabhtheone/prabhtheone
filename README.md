@@ -36,7 +36,14 @@ I’m learning computer science by writing code, reading real codebases, debuggi
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python,git,github,vscode,bash,cmake&perline=8&theme=dark" alt="C, C++, Python, Git, GitHub, VS Code, Bash and CMake" />
+<img src="https://img.shields.io/badge/C-190D10?style=for-the-badge&logo=c&logoColor=FF3B4E" alt="C" />
+<img src="https://img.shields.io/badge/C%2B%2B-190D10?style=for-the-badge&logo=cplusplus&logoColor=FF3B4E" alt="C++" />
+<img src="https://img.shields.io/badge/Python-190D10?style=for-the-badge&logo=python&logoColor=FF7A86" alt="Python" />
+<img src="https://img.shields.io/badge/Git-190D10?style=for-the-badge&logo=git&logoColor=FF3B4E" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-190D10?style=for-the-badge&logo=github&logoColor=FF3B4E" alt="GitHub" />
+<img src="https://img.shields.io/badge/VS_Code-190D10?style=for-the-badge&logo=visualstudiocode&logoColor=FF7A86" alt="VS Code" />
+<img src="https://img.shields.io/badge/Bash-190D10?style=for-the-badge&logo=gnubash&logoColor=FF3B4E" alt="Bash" />
+<img src="https://img.shields.io/badge/CMake-190D10?style=for-the-badge&logo=cmake&logoColor=FF7A86" alt="CMake" />
 
 </div>
 
