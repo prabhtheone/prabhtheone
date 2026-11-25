@@ -1,8 +1,8 @@
 {
   "username": "prabhtheone",
-  "updated_at": "2026-11-24T17:50:15.031242+00:00",
-  "total": 495,
-  "active_days": 64,
+  "updated_at": "2026-11-25T17:16:43.815556+00:00",
+  "total": 503,
+  "active_days": 65,
   "best_day": 60,
   "days": [
     {
@@ -1837,7 +1837,12 @@
     },
     {
       "date": "2026-11-24",
-      "count": 2,
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-11-25",
+      "count": 7,
       "level": 1
     }
   ]
